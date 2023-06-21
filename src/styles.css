@@ -1,0 +1,169 @@
+body {
+  background-color: white;
+}
+
+.left-panel {
+  background-color: #faffe4;
+  position: absolute;
+
+  width: 309px;
+  height: 1719px;
+  left: 98px;
+  top: 0px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.logo-cap {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #464545;
+  text-align: center;
+}
+
+.pages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px;
+  gap: 10px;
+
+  width: 264px;
+  height: 243px;
+  left: calc(50% - 264px / 2 + 22.5px);
+  top: 359px;
+}
+
+.links {
+  color: #464545;
+  text-decoration: none;
+  font-weight: 1000;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.icons {
+  margin-top: 5px;
+  text-align: center;
+  margin: 10px 30px 10px 5px;
+}
+
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70px;
+
+  color: #1f6403;
+  margin-left: 450px;
+  margin-top: 100px;
+}
+
+.frame {
+  margin-left: 450px;
+}
+
+.quote {
+  position: absolute;
+  width: 898px;
+  height: 38px;
+  left: 444px;
+  top: 552px;
+
+  font-family: "Marck Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 150%;
+  /* identical to box height, or 38px */
+
+  display: flex;
+  align-items: center;
+
+  color: #1f6403;
+}
+
+.author {
+  position: absolute;
+  width: 115px;
+  height: 30px;
+  left: 1204px;
+  top: 610px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+
+  display: flex;
+  align-items: center;
+
+  color: #1f6403;
+}
+
+h4 {
+  position: absolute;
+  width: 723px;
+  height: 28px;
+  left: 457px;
+  top: 692px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #464545;
+}
+
+.article {
+  position: absolute;
+  width: 887px;
+  height: 790px;
+  margin-left: 450px;
+  top: 959px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+
+  /* or 30px */
+
+  color: #464545;
+}
+
+object {
+  position: absolute;
+  width: 445px;
+  height: 210px;
+  left: 493px;
+  top: 750px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+
+  text-transform: capitalize;
+
+  color: #1f6403;
+}
