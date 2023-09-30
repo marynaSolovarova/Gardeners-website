@@ -2,6 +2,8 @@ body {
   background-color: white;
 }
 
+
+
 .left-panel {
   background-color: #faffe4;
   position: absolute;
@@ -19,30 +21,38 @@ body {
 }
 
 .logo-cap {
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: 400;
+ font-family: 'Roboto Condensed', sans-serif;
+font-style: normal;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 23px;
   /* identical to box height */
 
   text-transform: capitalize;
 
-  color: #464545;
+  color: black;
   text-align: center;
+  margin-bottom: 50px;
 }
+
+.name-of {
+  font-size: 20px;
+}
+
 
 .pages {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 0px 20px;
+  align-items: left;
+  padding: 0px 50px;
   gap: 10px;
 
   width: 264px;
   height: 243px;
-  left: calc(50% - 264px / 2 + 22.5px);
+  /*left: calc(50% - 264px / 2 + 22.5px);*/
+  
   top: 359px;
+  margin-bottom: 50px;
 }
 
 .links {
@@ -51,18 +61,30 @@ body {
   font-weight: 1000;
   margin-bottom: 5px;
   font-size: 25px;
+  font-family: 'Roboto Condensed', sans-serif;
+  
 }
-
+.links:hover {
+  color: #858484
+}
 .icons {
   margin-top: 5px;
   text-align: center;
-  margin: 10px 30px 10px 5px;
+  margin: 10px 30px 10px 0;
+}
+
+.icon {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+.ukr_icon {
+  margin-bottom: 3px;
 }
 
 h1 {
-  font-family: "Roboto";
+  font-family: 'Roboto Condensed', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 599;
   font-size: 60px;
   line-height: 70px;
 
@@ -82,7 +104,7 @@ h1 {
   left: 444px;
   top: 552px;
 
-  font-family: "Marck Script";
+  font-family: 'Marck Script', cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
@@ -102,7 +124,7 @@ h1 {
   left: 1204px;
   top: 610px;
 
-  font-family: "Roboto";
+  font-family: 'Marck Script', cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -122,7 +144,7 @@ h4 {
   left: 457px;
   top: 692px;
 
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -138,7 +160,7 @@ h4 {
   margin-left: 450px;
   top: 959px;
 
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -166,4 +188,64 @@ object {
   text-transform: capitalize;
 
   color: #1f6403;
+}
+.doc {
+    position: absolute;
+  /*width: 445px;*/
+  height: 210px;
+  left: 457px;
+  margin-bottom: 50px;
+ 
+  /*padding-bottom: 0px;*/
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  
+  /* or 30px */
+
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #1f6403;
+}
+.doc1 {
+ 
+  top: 790px;
+ 
+
+}
+.doc:hover {
+  color: #464545;
+  text-decoration: underline;
+}
+.doc2{
+
+  top: 820px;
+ 
+}
+.doc3 {
+
+  
+  top: 850px;
+ 
+}
+.doc4 {
+  top: 880px;
+
+}
+.doc5 {
+  top:910px;
+}
+.doc-image {
+width: 22px;
+height: 22px;
+}
+
+.bottom-panel{
+  background-color: #faffe4;
+  height: 94px;
+  width:1440px;
+ 
+  margin-left: 0px;
+  margin-top: 1200px;
 }
